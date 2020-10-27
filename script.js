@@ -1,9 +1,6 @@
 var inputValues = '';
 
 var handlers = {
-    createCalc: function() {
-
-    },
     clearOutput: function() {
         inputValues = '';
         document.querySelector('.calculator-screen').innerText = '';
